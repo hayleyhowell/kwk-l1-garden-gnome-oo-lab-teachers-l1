@@ -21,7 +21,7 @@ class GardenGnome
   end 
 end 
 
-gnome1 = GardenGnome.new("pink")
+gnome1 = GardenGnome.new
 puts gnome1.hat_color
 gnome2 = GardenGnome.new("orange")
 gnome2.name = "Walter the Worst"
