@@ -3,7 +3,7 @@ class GardenGnome
   attr_accessor :name, :age, :gluten_allergy, :hat_color 
   attr_reader :personality
 
-  def initialize(color="red")
+  def initialize(color = "red")
     @personality = "evil"
     @hat_color = color
   end 
@@ -23,3 +23,5 @@ end
 
 gnome1 = GardenGnome.new("pink")
 puts gnome1.hat_color
+gnome2 = GardenGnome.new("orange")
+gnome2.name = "Walter the Worst"
