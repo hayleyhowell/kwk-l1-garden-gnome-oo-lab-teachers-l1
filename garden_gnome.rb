@@ -25,5 +25,4 @@ end
 gnome1 = GardenGnome.new
 puts gnome1.hat_color
 gnome2 = GardenGnome.new("Walter", "orange")
-gnome2.name = "Walter the Worst"
 puts gnome2.name 
