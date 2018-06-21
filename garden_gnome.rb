@@ -21,5 +21,5 @@ class GardenGnome
   end 
 end 
 
-gnome1 = GardenGnome.new
+gnome1 = GardenGnome.new("pink")
 puts gnome1.hat_color
