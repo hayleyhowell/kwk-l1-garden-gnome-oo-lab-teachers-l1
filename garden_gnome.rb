@@ -8,4 +8,8 @@ class GardenGnome
     @hat_color = color
   end 
   
+  def gnaw
+    
+  end 
+  
 end 
